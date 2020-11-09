@@ -7,6 +7,7 @@
 
 /* regole generali impaginazione */
 .container {
+  max-width: 1200px;
   width: 1200px;
   margin: 0 auto;
 }
@@ -15,23 +16,33 @@
 header {
   height: 200px;
   background-color: #FFFF00;
+  margin-bottom: 5px;
 }
 
-.blocco-sx, .blocco-dx {
-  height: 250px;
+.blocco-sx {
+  height: 300px;
+  width: 25%;
+  background-color: #D391E3;
+}
+
+.blocco-dx {
+  height: 300px;
   width: 25%;
   background-color: #D391E3;
 }
 
 .blocco-centrale {
   height: 400px;
-  width: 50%;
+  width: 48%;
   background-color: #800080;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 footer {
   height: 100px;
   background-color: #ADD8E6;
+  margin-top: 5px;
 }
 
 /* ----- UTILITY CLASS ----- */
@@ -49,3 +60,17 @@ footer {
 }
 
 /* ----- UTILITY CLASS ----- */
+
+/* divisione row destra in due */
+.sidebar-content div:first-child {
+  height: 150px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.sidebar-content div:nth-child(2) {
+  height: 150px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+/* fine divisione row destra in due */
