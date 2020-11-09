@@ -33,3 +33,19 @@ footer {
   height: 100px;
   background-color: #ADD8E6;
 }
+
+/* ----- UTILITY CLASS ----- */
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* floating */
+.float-l {
+  float: left;
+}
+
+/* ----- UTILITY CLASS ----- */
