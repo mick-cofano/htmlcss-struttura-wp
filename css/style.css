@@ -4,3 +4,32 @@
   margin: 0;
   padding: 0;
 }
+
+/* regole generali impaginazione */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* colori e grandezze dei blocchi (momentaneo)*/
+header {
+  height: 200px;
+  background-color: #FFFF00;
+}
+
+.blocco-sx, .blocco-dx {
+  height: 250px;
+  width: 25%;
+  background-color: #D391E3;
+}
+
+.blocco-centrale {
+  height: 400px;
+  width: 50%;
+  background-color: #800080;
+}
+
+footer {
+  height: 100px;
+  background-color: #ADD8E6;
+}
