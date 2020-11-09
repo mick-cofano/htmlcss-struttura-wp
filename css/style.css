@@ -7,15 +7,15 @@
 
 /* regole generali impaginazione */
 .container {
-  max-width: 1200px;
   width: 1200px;
   margin: 0 auto;
 }
 
-/* colori e grandezze dei blocchi (momentaneo)*/
+/* colori e grandezze dei blocchi */
 header {
   height: 200px;
   background-color: #FFFF00;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -26,9 +26,7 @@ header {
 }
 
 .blocco-dx {
-  height: 300px;
   width: 25%;
-  background-color: #D391E3;
 }
 
 .blocco-centrale {
@@ -44,6 +42,8 @@ footer {
   background-color: #ADD8E6;
   margin-top: 5px;
 }
+
+/* fine colori e grandezze dei blocchi */
 
 /* ----- UTILITY CLASS ----- */
 
@@ -61,16 +61,16 @@ footer {
 
 /* ----- UTILITY CLASS ----- */
 
-/* divisione row destra in due */
+/* divisione tabella destra in due */
 .sidebar-content div:first-child {
-  height: 150px;
-  border: 2px solid black;
-  margin-bottom: 10px;
+  height: 170px;
+  margin-bottom: 20px;
+  background-color: #D391E3;
 }
 
 .sidebar-content div:nth-child(2) {
-  height: 150px;
-  border: 2px solid black;
-  margin-top: 10px;
+  height: 170px;
+  margin-top: 20px;
+  background-color: #D391E3;
 }
 /* fine divisione row destra in due */
